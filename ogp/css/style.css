@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 4px solid #333;
+}
+
+.header__ttl {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.globalnav {
+  width: 100%;
+  background-color: #fff;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.globalnav__list {
+  float: left;
+  width: calc(100% / 3);
+}
+
+.globalnav__list > a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #6495ed;
+}
+
+.card {
+  margin: 0 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card__img > img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  display: block;
+}
+
+.card__img-caption {
+  background: #32cd32;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+  padding: 4px 0;
+}
+
+.card__box {
+  padding: 0 10px 20px;
+}
+
+.card-about__ttl {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.card-about__txt {
+  line-height: 1.5;
+  font-size: 14px;
+  color: #666;
+}
+
+.card-sub-about__ttl {
+  font-size: 18px;
+  color: #666;
+  font-weight: normal;
+  padding: 0 0 10px;
+}
+
+.card-sub-about__txt {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.card-sub-about__txt--cast {
+  color: #6495ed;
+}
+
+.card-sub-about__txt--last {
+  padding: 5px 0 0;
+}
+
+.contents {
+  padding-bottom: 20px;
+}
+
+.contents__ttl {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: normal;
+  border-bottom: 4px solid #eee;
+}
+
+.contents__ttl--info {
+  border-color:  #ffd700;
+}
+
+.contents__ttl--txt {
+  border-color: #ffa500;
+}
+
+.contents__txt {
+  padding: 10px;
+  font-size: 14px;
+}
+.media-contents {
+  padding: 10px;
+  border-bottom: 1px dotted #000;
+}
+
+.media-contents__date {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0 0 10px;
+}
+
+.media > img {
+  width: 50px;
+  float: left;
+}
+
+.media > dl {
+  float: left;
+  width: calc(100% - 50px);
+}
+
+dl > dt {
+  padding: 0 10px;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+dl > dd {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.pagetop {
+  text-align: right;
+  font-size: 14px;
+}
+
+.pagetop > a {
+  color: #333;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  margin: 60px 0 0 0;
+}
+
+.foot-nav {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.foot-share {
+  padding: 0 10px;
+}
+
+.foot-share > li {
+  text-align: center;
+  border-radius: 4px;
+}
+
+.foot-share > li > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.foot-share > li:first-child {
+  background: #3C7CC7;
+  width: 45%;
+  float: left;
+}
+
+.foot-share > li:last-child {
+  background: #64A6F2;
+  width: 50%;
+  float: right;
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: underline;
+}
+
+
